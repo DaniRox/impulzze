@@ -1,0 +1,115 @@
+.SobreImpulzze {
+    background-color: var(--salmon);
+    padding: 4rem 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-end;
+}
+
+.SobreImpulzzeContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.SobreImpulzzeContent__title {
+    width: 100%;
+    color: var(--maiz);
+    font-family: var(--font-secondary);
+    font-weight: var(--font-weight-black);
+    font-size: var(--font-Xlarge);
+    text-align: end;
+    max-width: 35rem;
+    align-self: flex-end;
+}
+
+.SobreImpulzzeContent__text {
+    background-color: var(--clear);
+    padding: 3rem;
+    border-radius: 80rem 0 150rem 80rem;
+}
+
+.text {
+    color: var(--dark);
+    font-family: var(--font-primary);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-medium);
+}
+
+.SobreImpulzzeContent__shapes {
+    display: flex;
+    flex-direction: row;
+}
+
+.shapes {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/* Móviles estándar */
+@media (min-width: 481px) {
+
+}
+
+  /* Tabletas pequeñas */
+@media (min-width: 769px) {
+    .SobreImpulzze {
+        padding: 5rem 8%;
+    }
+    .SobreImpulzzeContent__text {
+        width: auto;
+    }
+
+    .SobreImpulzzeContent {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .SobreImpulzzeContent__shapes {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+
+}
+
+  /* Tabletas grandes / Dispositivos pequeños de escritorio */
+@media (min-width: 1025px) {
+    .SobreImpulzze {
+        padding: 5rem 10%;
+    }
+
+    .SobreImpulzzeContent {
+        justify-content: flex-end;
+    }
+
+}
+
+  /* Escritorio */
+@media (min-width: 1281px) {
+    .SobreImpulzze {
+        padding: 5rem 14%;
+    }
+}
+
+  /* Pantallas grandes de escritorio */
+@media (min-width: 1601px) {
+    .SobreImpulzze {
+        padding: 5rem 16%;
+    }
+}
+
+  /* Pantallas extra grandes */
+@media (min-width: 1921px) {
+    .SobreImpulzze {
+        padding: 5rem 18%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .SobreImpulzzeContent__title {
+        align-self: center;
+    }
+}

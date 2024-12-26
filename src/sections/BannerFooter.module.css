@@ -1,0 +1,88 @@
+.BannerFooter {
+    background-color: var(--purple);
+    padding: 4rem 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.BannerFooter__title {
+    width: 100%;
+    color: var(--esmerald);
+    font-family: var(--font-secondary);
+    font-weight: var(--font-weight-black);
+    font-size: var(--font-Xlarge);
+    text-align: start;
+    max-width: 35rem;
+    align-self: self-start;
+}
+
+.BannerFooterContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.BannerFooterContent__text {
+    background-color: var(--esmerald);
+    padding: 2rem 3rem 2rem 5rem;
+    border-radius: 0 80rem 80rem 150rem;
+}
+
+.text {
+    font-family: var(--font-secondary);
+    font-size: var(--font-small);
+    font-weight: var(--font-weight-light);
+    color: var(--dark);
+    line-height: 1.2rem;
+}
+
+
+/* Móviles estándar */
+@media (min-width: 481px) {
+    .BannerFooterContent {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+  /* Tabletas pequeñas */
+@media (min-width: 769px) {
+    .BannerFooter {
+        padding: 5rem 8%;
+    }
+}
+
+  /* Tabletas grandes / Dispositivos pequeños de escritorio */
+@media (min-width: 1025px) {
+    .BannerFooter {
+        padding: 5rem 10%;
+        width: 100vw;
+    }
+}
+
+/* Escritorio */
+@media (min-width: 1281px) {
+    .BannerFooter {
+        padding: 5rem 14%;
+    }
+}
+
+/* Pantallas grandes de escritorio */
+@media (min-width: 1601px) {
+    .BannerFooter {
+        padding: 5rem 16%;
+    }
+}
+
+/* Pantallas extra grandes */
+@media (min-width: 1921px) {
+    .BannerFooter {
+        padding: 5rem 18%;
+    }
+
+    .BannerFooter__title {
+        align-self: center;
+    }
+}

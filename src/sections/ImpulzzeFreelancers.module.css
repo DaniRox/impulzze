@@ -1,0 +1,77 @@
+.ImpulzzeFreelancers {
+    background-color: var(--clear);
+    padding: 4rem 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.ImpulzzeFreelancers__title {
+    width: 100%;
+    color: var(--dark);
+    font-family: var(--font-secondary);
+    font-weight: var(--font-weight-black);
+    font-size: var(--font-Xlarge);
+    text-align: end;
+    max-width: 35rem;
+    align-self: flex-end;
+}
+
+.ImpulzzeFreelancersContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3rem;
+}
+
+
+
+/* Móviles estándar */
+@media (min-width: 481px) {
+    .ImpulzzeFreelancersContent {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+  /* Tabletas pequeñas */
+@media (min-width: 769px) {
+    .ImpulzzeFreelancers {
+        padding: 5rem 8%;
+    }
+
+}
+
+  /* Tabletas grandes / Dispositivos pequeños de escritorio */
+@media (min-width: 1025px) {
+    .ImpulzzeFreelancers {
+        padding: 5rem 10%;
+    }
+}
+
+  /* Escritorio */
+@media (min-width: 1281px) {
+    .ImpulzzeFreelancers {
+        padding: 5rem 14%;
+    }
+}
+
+/* Pantallas grandes de escritorio */
+@media (min-width: 1601px) {
+    .ImpulzzeFreelancers {
+        padding: 5rem 16%;
+    }
+}
+
+/* Pantallas extra grandes */
+@media (min-width: 1921px) {
+    .ImpulzzeFreelancers {
+        padding: 5rem 18%;
+    }
+
+    .ImpulzzeFreelancers__title {
+        align-self: center;
+    }
+}
