@@ -14,9 +14,9 @@ const Footer = () => {
 
                 <div className={styles.FooterContent__links}>
                     <div className={styles.links__internalLinks}>
-                        <a href="" target="_blank" rel="noopener noreferrer" className={styles.link}>Sobre Impulzze</a>
-                        <a href="" target="_blank" rel="noopener noreferrer" className={styles.link}>Impulzze para Empresas</a>
-                        <a href="" target="_blank" rel="noopener noreferrer" className={styles.link}>Compromiso Impulzze</a>
+                        <a href="#SobreImpulzze" target="_blank" rel="noopener noreferrer" className={styles.link}>Sobre Impulzze</a>
+                        <a href="ImpulzzeEmpresas" target="_blank" rel="noopener noreferrer" className={styles.link}>Impulzze para Empresas</a>
+                        <a href="CompromisoImpulzze" target="_blank" rel="noopener noreferrer" className={styles.link}>Compromiso Impulzze</a>
                         <a href="" target="_blank" rel="noopener noreferrer" className={styles.link}>Impulzze para Freelancers</a>
                     </div>
                     <div className={styles.links__socialLinks}>

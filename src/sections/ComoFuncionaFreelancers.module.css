@@ -1,6 +1,6 @@
 .ComoFuncionaFreelancers {
     background-color: var(--maiz);
-    padding: 4rem 5%;
+    padding: 4rem 5% 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,7 +25,15 @@
     gap: 3rem;
 }
 
-.ComoFuncionaFreelancersContent__CardCircle {
+.ComoFuncionaFreelancers__buton {
+    background-color: var(--purple);
+    bottom: -3rem;
+    padding: 1.5rem 3rem;
+    border-radius: 140rem 60rem 0 0;
+    align-self: flex-start;
+}
+
+.ComoFuncionaFreelancersContent__CardCircle1, .ComoFuncionaFreelancersContent__CardCircle2, .ComoFuncionaFreelancersContent__CardCircle3{
     min-width: 13rem;
     width: 13rem;
     height: 13rem;
@@ -36,6 +44,14 @@
     border-radius: 40rem;
     padding: 3rem;
     box-shadow: -2px 2px 10px 0px rgba(80,80,80,0.5);
+}
+
+.ComoFuncionaFreelancersContent__CardCircle2 {
+    margin-top: 6rem;
+}
+
+.ComoFuncionaFreelancersContent__CardCircle1 {
+    margin-top: 2rem;
 }
 
 .CardCIrcle__text {
@@ -52,6 +68,7 @@
 @media (min-width: 481px) {
     .ComoFuncionaFreelancersContent {
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
     }
 }
@@ -59,14 +76,14 @@
   /* Tabletas pequeñas */
 @media (min-width: 769px) {
     .ComoFuncionaFreelancers {
-        padding: 5rem 8%;
+        padding: 5rem 8% 0;
     }
 }
 
   /* Tabletas grandes / Dispositivos pequeños de escritorio */
 @media (min-width: 1025px) {
     .ComoFuncionaFreelancers {
-        padding: 5rem 10%;
+        padding: 5rem 10% 0;
         width: 100vw;
     }
 }
@@ -74,21 +91,21 @@
 /* Escritorio */
 @media (min-width: 1281px) {
     .ComoFuncionaFreelancers {
-        padding: 5rem 14%;
+        padding: 5rem 14% 0;
     }
 }
 
 /* Pantallas grandes de escritorio */
 @media (min-width: 1601px) {
     .ComoFuncionaFreelancers {
-        padding: 5rem 16%;
+        padding: 5rem 16% 0;
     }
 }
 
 /* Pantallas extra grandes */
 @media (min-width: 1921px) {
     .ComoFuncionaFreelancers {
-        padding: 5rem 18%;
+        padding: 5rem 18% 0;
     }
 
     .ComoFuncionaFreelancers__title {

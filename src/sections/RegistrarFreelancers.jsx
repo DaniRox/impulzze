@@ -3,8 +3,9 @@ import styles from "./RegistrarFreelancers.module.css";
 
 
 const RegistrarFreelancers = () => {
+
     return (
-        <section className={styles.RegistrarFreelancers}>
+        <section className={styles.RegistrarFreelancers} id="RegistraFreelancers">
 
             <div className={styles.RegistrarFreelancers__titles}>
                 <h1 className={styles.RegistrarFreelancers__title}>Registra Tu Freelancers

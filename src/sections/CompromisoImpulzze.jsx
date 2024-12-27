@@ -5,7 +5,7 @@ import Shape from "../components/Shape";
 
 const CompromisoImpulzze = () => {
     return (
-        <section className={styles.CompromisoImpulzze}>
+        <section className={styles.CompromisoImpulzze} id="CompromisoImpulzze">
             <div className={styles.CompromisoImpulzze__titles}>
             <h2 className={styles.CompromisoImpulzze__subtitle}>Nuestro compromiso con el Éxito</h2>
                 <h1 className={styles.CompromisoImpulzze__title}>Impulzze: Donde el talento conecta y las oportunidades crecen.</h1>

@@ -1,6 +1,6 @@
 .ComoFuncionaEmpresas {
     background-color: var(--maiz);
-    padding: 4rem 5%;
+    padding: 4rem 5% 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,6 +22,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    padding-bottom: 4rem;
     gap: 3rem;
 }
 
@@ -46,12 +47,20 @@
     line-height: 1.2rem;
 }
 
+.ComoFuncionaEmpresas__buton {
+    background-color: var(--salmon);
+    bottom: -3rem;
+    padding: 1.5rem 3rem;
+    border-radius: 140rem 60rem 0 0;
+    align-self: flex-end;
+}
 
 
 /* Móviles estándar */
 @media (min-width: 481px) {
     .ComoFuncionaEmpresasContent {
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
     }
 }
@@ -59,7 +68,7 @@
   /* Tabletas pequeñas */
 @media (min-width: 769px) {
     .ComoFuncionaEmpresas {
-        padding: 5rem 8%;
+        padding: 5rem 8% 0;
     }
 }
 
@@ -74,21 +83,21 @@
 /* Escritorio */
 @media (min-width: 1281px) {
     .ComoFuncionaEmpresas {
-        padding: 5rem 14%;
+        padding: 5rem 14% 0;
     }
 }
 
 /* Pantallas grandes de escritorio */
 @media (min-width: 1601px) {
     .ComoFuncionaEmpresas {
-        padding: 5rem 16%;
+        padding: 5rem 16% 0;
     }
 }
 
 /* Pantallas extra grandes */
 @media (min-width: 1921px) {
     .ComoFuncionaEmpresas {
-        padding: 5rem 18%;
+        padding: 5rem 18% 0;
     }
 
     .ComoFuncionaEmpresas__title {

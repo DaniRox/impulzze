@@ -6,7 +6,7 @@ const RegistrarEmpresa = () => {
     return (
         <section className={styles.RegistrarEmpresa}>
 
-            <div className={styles.RegistrarEmpresa__titles}>
+            <div className={styles.RegistrarEmpresa__titles} id="RegistraEmpresas">
                 <h1 className={styles.RegistrarEmpresa__title}>Registra Tu Empresa
                 y Encuentra el Talento que Necesitas</h1>
                 <h2 className={styles.RegistrarEmpresa__subtitle}>Completa la información a continuación para comenzar a publicar proyectos y recibir propuestas.</h2>

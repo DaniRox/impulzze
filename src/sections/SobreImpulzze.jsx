@@ -7,7 +7,7 @@ import Logotipo1 from "../components/Logotipo1";
 
 const SobreImpulzze = () => {
     return (
-        <section className={styles.SobreImpulzze}>
+        <section className={styles.SobreImpulzze} id="SobreImpulzze">
 
             <h2 className={styles.SobreImpulzzeContent__title}>La plataforma donde las empresas y freelancers crean éxito juntos.</h2>
 

@@ -6,7 +6,7 @@ import { Talento, Agilidad, Recursos } from "../components/Icons";
 
 const ImpulzzeEmpresas = () => {
     return (
-        <section className={styles.ImpulzzeEmpresas}>
+        <section className={styles.ImpulzzeEmpresas} id="ImpulzzeEmpresas">
             <h1 className={styles.ImpulzzeEmpresas__title}>¿Por qué elegir Impulzze para
             tu empresa?</h1>
 
