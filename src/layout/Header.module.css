@@ -1,6 +1,6 @@
 .Header {
     background-color: var(--clear);
-    background-image: url("../assets/images/shapesGroup.png");
+    background-image: url("../assets/images/shapesGroup.svg");
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 50rem;
@@ -74,13 +74,13 @@ h1 {
 
 @media (min-width: 769px) {
     .Header {
-        padding: 5rem 8%;
         background-position: right top;
-        padding: 10rem 5%;
+        padding: 10rem 8%;
+        background-size: 48rem;
     }
 
-    .HeaderContent {
-        flex-direction: row;
+    .HeaderContent__text {
+        min-width: 29rem;
     }
 
     h1 {
@@ -100,6 +100,7 @@ h1 {
 @media (min-width: 1025px) {
     .Header {
         padding: 5rem 10%;
+        background-size: 42rem;
         height: 100vh;
         display: flex;
         flex-direction: row;
@@ -107,6 +108,7 @@ h1 {
 
     .HeaderContent {
         align-items: center;
+        flex-direction: row;
     }
 }
 
@@ -114,6 +116,7 @@ h1 {
 @media (min-width: 1281px) {
     .Header {
         padding: 5rem 14%;
+        background-size: 34rem;
     }
 }
 

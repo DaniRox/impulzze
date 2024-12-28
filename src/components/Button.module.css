@@ -2,12 +2,13 @@
     color: var(--dark);
     border: none;
     font-family: var(--font-secondary);
-    font-weight: var(--font-weight-regular);
+    font-weight: var(--font-weight-light);
     font-size: var(--font-small);
     padding: 0.6rem 1rem;
     border-radius: 0.4rem;
     cursor: pointer;
     transition: all 200ms;
+    box-shadow: -2px 2px 4px 0px rgba(80,80,80,0.5);
 }
 
 .button:hover {

@@ -1,0 +1,74 @@
+.Navbar {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    position: fixed;
+}
+
+.NavbarContent__logotipo {
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--purple);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavbarContent__buttons {
+    background-color: var(--maiz);
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+@media (min-width: 481px) {
+    .NavbarContent__buttons {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 769px) {
+    .Navbar {
+        padding: 1rem 8%;
+        background-position: right top;
+    }
+
+}
+
+  /* Tabletas grandes / Dispositivos pequeños de escritorio */
+@media (min-width: 1025px) {
+    .Navbar {
+        padding: 1rem 10%;
+    }
+
+}
+
+/* Escritorio */
+@media (min-width: 1281px) {
+    .Navbar {
+        padding: 1rem 14%;
+    }
+}
+
+/* Pantallas grandes de escritorio */
+@media (min-width: 1601px) {
+    .Navbar {
+        padding: 1rem 16%;
+    }
+}
+
+/* Pantallas extra grandes */
+@media (min-width: 1921px) {
+    .Navbar {
+        padding: 1rem 18%;
+    }
+}
