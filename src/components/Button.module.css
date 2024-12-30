@@ -3,7 +3,7 @@
     border: none;
     font-family: var(--font-secondary);
     font-weight: var(--font-weight-light);
-    font-size: var(--font-small);
+    font-size: var(--font-medium);
     padding: 0.6rem 1rem;
     border-radius: 0.4rem;
     cursor: pointer;
@@ -20,4 +20,11 @@
     filter: brightness(0.9);
     transform: scale(0.98, 0.98);
     box-shadow: none;
+}
+
+
+@media (min-width: 769px) {
+    .button {
+        font-size: var(--font-small);
+    }
 }

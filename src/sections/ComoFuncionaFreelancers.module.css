@@ -56,7 +56,7 @@
 
 .CardCIrcle__text {
     font-family: var(--font-secondary);
-    font-size: var(--font-small);
+    font-size: var(--font-medium);
     font-weight: var(--font-weight-light);
     color: var(--dark);
     line-height: 1.2rem;
