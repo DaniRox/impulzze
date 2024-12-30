@@ -82,6 +82,7 @@ h1 {
 
     .HeaderContent__text {
         min-width: 29rem;
+        padding-top: 0;
     }
 
     h1 {
