@@ -10,8 +10,8 @@
 }
 
 .NavbarContent__logotipo {
-    width: 5rem;
-    height: 5rem;
+    width: 3.4rem;
+    height: 3.4rem;
     background-color: var(--purple);
     border-radius: 100%;
     display: flex;

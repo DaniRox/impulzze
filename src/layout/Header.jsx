@@ -78,7 +78,7 @@ const Header = () => {
 
             <div className={styles.HeaderContent__Logotipo}>
             <div className={styles.logotipo}>
-                <Logotipo1 color="var(--clear)" width="8rem" height="auto" />
+                <Logotipo1 color="var(--clear)" width="7rem" height="auto" />
             </div>
             </div>
         </div>
