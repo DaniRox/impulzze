@@ -80,9 +80,12 @@ h1 {
         background-size: 48rem;
     }
 
+    .HeaderContent {
+        padding-top: 0%;
+    }
+
     .HeaderContent__text {
         min-width: 29rem;
-        padding-top: 0;
     }
 
     h1 {
