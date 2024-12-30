@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav className={styles.Navbar}>
 
             <div className={styles.NavbarContent__logotipo}>
-                <Logotipo1 color="var(--esmerald)" width="2rem" height="auto" />
+                <Logotipo1 color="var(--esmerald)" width="2.2rem" height="auto" />
             </div>
 
             <div className={styles.NavbarContent__buttons}>
