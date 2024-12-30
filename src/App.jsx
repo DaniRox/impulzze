@@ -28,7 +28,6 @@ const App = () => {
             <Navbar />
             <Header />
             <main>
-                <Rrss />
                 <SobreImpulzze />
 
                 <ImpulzzeEmpresas />
