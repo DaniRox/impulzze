@@ -9,5 +9,5 @@ export default defineConfig({
     react(),
     svgr(),
   ],
-  base: "/imp/",
+  base: "/impulzze/",
 });
