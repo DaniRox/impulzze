@@ -1,7 +1,7 @@
 .CardEmpresas {
     width: 13rem;
     min-width: 13rem;
-    height: 17rem;
+    height: 19rem;
     background-color: var(--maiz);
     color: var(--dark);
     padding: 1.6rem;
@@ -24,9 +24,11 @@
     font-family: var(--font-secondary);
     font-size: var(--font-large);
     font-weight: var(--font-weight-black);
+    line-height: 110%;
 }
 
 .CardEmpresas__text {
     font-family: var(--font-primary);
     font-size: var(--font-medium);
+    line-height: 120%;
 }

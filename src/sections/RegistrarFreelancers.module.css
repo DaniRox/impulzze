@@ -20,6 +20,7 @@
     font-size: var(--font-Xlarge);
     text-align: start;
     max-width: 35rem;
+    line-height: 120%;
 }
 
 .RegistrarFreelancers__subtitle {
@@ -29,6 +30,7 @@
     font-size: var(--font-medium);
     text-align: start;
     max-width: 35rem;
+    line-height: 120%;
 }
 
 form {

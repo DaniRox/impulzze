@@ -33,6 +33,7 @@
     font-size: var(--font-small);
     font-weight: var(--font-weight-light);
     gap: 0.6rem;
+    line-height: 110%;
 }
 
 .link {

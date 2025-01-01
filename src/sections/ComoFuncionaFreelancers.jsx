@@ -17,15 +17,15 @@ const ComoFuncionaFreelancers = () => {
 
             <div className={styles.ComoFuncionaFreelancersContent}>
                 <div className={styles.ComoFuncionaFreelancersContent__CardCircle1}>
-                    <p className={styles.CardCIrcle__text}>Dinos quién eres, qué sabes hacer y qué tipo de proyectos buscas.</p>
+                    <p className={styles.CardCircle__text}>Dinos quién eres, qué sabes hacer y qué tipo de proyectos buscas.</p>
                 </div>
 
                 <div className={styles.ComoFuncionaFreelancersContent__CardCircle2}>
-                    <p className={styles.CardCIrcle__text}>Explora las oportunidades y postúlate a aquellas que se ajusten a tus intereses.</p>
+                    <p className={styles.CardCircle__text}>Explora las oportunidades y postúlate a aquellas que se ajusten a tus intereses.</p>
                 </div>
 
                 <div className={styles.ComoFuncionaFreelancersContent__CardCircle3}>
-                    <p className={styles.CardCIrcle__text}>Recibe propuestas de freelancers y selecciona al candidato que mejor se ajuste a tus expectativas.</p>
+                    <p className={styles.CardCircle__text}>Recibe propuestas de freelancers y selecciona al candidato que mejor se ajuste a tus expectativas.</p>
                 </div>
             </div>
 

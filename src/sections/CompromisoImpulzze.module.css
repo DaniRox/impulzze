@@ -29,6 +29,7 @@
     font-size: var(--font-Xlarge);
     text-align: start;
     max-width: 35rem;
+    line-height: 120%;
 }
 
 .CompromisoImpulzzeContent {
@@ -38,8 +39,9 @@
 
 .CompromisoImpulzzeContent__text {
     background-color: var(--salmon);
-    padding: 2rem 3rem 3rem 3rem;
+    padding: 3rem 3rem 4.5rem 4.5rem;
     border-radius: 0 80rem 80rem 160rem;
+    line-height: 110%;
 }
 
 .text {

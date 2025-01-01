@@ -1,5 +1,5 @@
 html {
-    font-size: 16px;
+    font-size: 17px;
 }
 
 @media (min-width: 769px) {
@@ -10,25 +10,20 @@ html {
 
 @media (min-width: 1025px) {
     html {
-        font-size: 20px;
+        font-size: 19px;
     }
 }
 
 @media (min-width: 1281px) {
     html {
-        font-size: 22px;
+        font-size: 20px;
     }
 }
 
 @media (min-width: 1601px) {
     html {
-        font-size: 24px;
+        font-size: 21px;
     }
 }
 
-/* Pantallas extra grandes */
-@media (min-width: 1921px) {
-    html {
-        font-size: 26px;
-    }
-}
+

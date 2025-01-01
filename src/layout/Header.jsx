@@ -45,41 +45,41 @@ const Header = () => {
         <header className={styles.Header}>
         <div className={styles.HeaderContent}>
             <div className={styles.HeaderContent__text}>
-            <h1>
-                Impulzza tu empresa,<br />
-                Conecta con<br />
-                <span className={styles.animatedText}>
-                {currentText.split("").map((char, index) => (
-                    <span
-                    key={index}
-                    className={styles.letter}
-                    style={{
-                        animationDelay: `${index * 0.1}s` // Controla el tiempo de animación de cada letra
-                    }}
-                    >
-                    {char === " " ? "\u00A0" : char}
+                <h1>
+                    Impulzza tu empresa,<br />
+                    Conecta con<br />
+                    <span className={styles.animatedText}>
+                    {currentText.split("").map((char, index) => (
+                        <span
+                        key={index}
+                        className={styles.letter}
+                        style={{
+                            animationDelay: `${index * 0.1}s` // Controla el tiempo de animación de cada letra
+                        }}
+                        >
+                        {char === " " ? "\u00A0" : char}
+                        </span>
+                    ))}
                     </span>
-                ))}
-                </span>
-            </h1>
-            <div className={styles.HeaderContent__buttons}>
-                <Button
-                    text="Explora servicios y potencia tu proyecto"
-                    backgroundColor="var(--maiz)"
-                    onClick={() => scrollToSection("ImpulzzeEmpresas")}
-                />
-                <Button
-                    text="Contáctanos y creemos soluciones"
-                    backgroundColor="var(--salmon)"
-                    onClick={() => scrollToSection("ImpulzzeFreelancers")}
-                />
-            </div>
+                </h1>
+                <div className={styles.HeaderContent__buttons}>
+                    <Button
+                        text="Explora servicios y potencia tu proyecto"
+                        backgroundColor="var(--maiz)"
+                        onClick={() => scrollToSection("ImpulzzeEmpresas")}
+                    />
+                    <Button
+                        text="Contáctanos y creemos soluciones"
+                        backgroundColor="var(--salmon)"
+                        onClick={() => scrollToSection("ImpulzzeFreelancers")}
+                    />
+                </div>
             </div>
 
             <div className={styles.HeaderContent__Logotipo}>
-            <div className={styles.logotipo}>
-                <Logotipo1 color="var(--clear)" width="7rem" height="auto" />
-            </div>
+                <div className={styles.logotipo}>
+                    <Logotipo1 color="var(--clear)" width="7rem" height="auto" />
+                </div>
             </div>
         </div>
         </header>

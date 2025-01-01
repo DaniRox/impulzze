@@ -16,6 +16,7 @@
     text-align: start;
     max-width: 35rem;
     align-self: self-start;
+    line-height: 120%;
 }
 
 .BannerFooterContent {
@@ -26,16 +27,16 @@
 
 .BannerFooterContent__text {
     background-color: var(--esmerald);
-    padding: 2rem 3rem 2rem 5rem;
+    padding: 3rem 3rem 4.5rem 4.5rem;
     border-radius: 0 80rem 80rem 150rem;
 }
 
 .text {
     font-family: var(--font-secondary);
-    font-size: var(--font-small);
+    font-size: var(--font-medium);
     font-weight: var(--font-weight-light);
     color: var(--dark);
-    line-height: 1.2rem;
+    line-height: 120%;
 }
 
 

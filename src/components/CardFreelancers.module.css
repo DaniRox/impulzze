@@ -1,7 +1,7 @@
 .CardFreelancers {
     width: 13rem;
     min-width: 13rem;
-    height: 17rem;
+    height: 19rem;
     background-color: var(--salmon);
     color: var(--dark);
     padding: 1.6rem;
@@ -25,9 +25,11 @@
     font-size: var(--font-large);
     font-weight: var(--font-weight-black);
     text-align: end;
+    line-height: 120%;
 }
 
 .CardFreelancers__text {
     font-family: var(--font-primary);
     font-size: var(--font-medium);
+    line-height: 120%;
 }

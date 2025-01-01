@@ -54,12 +54,12 @@
     margin-top: 2rem;
 }
 
-.CardCIrcle__text {
+.CardCircle__text {
     font-family: var(--font-secondary);
     font-size: var(--font-medium);
     font-weight: var(--font-weight-light);
     color: var(--dark);
-    line-height: 1.2rem;
+    line-height: 120%;
 }
 
 

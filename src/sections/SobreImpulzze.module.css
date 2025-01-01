@@ -25,8 +25,9 @@
 
 .SobreImpulzzeContent__text {
     background-color: var(--clear);
-    padding: 3rem;
+    padding: 3rem 4.5rem 4.5rem 3rem;
     border-radius: 80rem 0 150rem 80rem;
+    line-height: 110%;
 }
 
 .text {
