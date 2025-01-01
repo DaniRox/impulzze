@@ -1,4 +1,5 @@
 .RegistrarFreelancers {
+    width: 100%;
     background-color: var(--salmon);
     padding: 4rem 5%;
     display: flex;

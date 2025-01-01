@@ -1,4 +1,5 @@
 .RegistrarEmpresa {
+    width: 100%;
     background-color: var(--esmerald);
     padding: 4rem 5%;
     display: flex;
