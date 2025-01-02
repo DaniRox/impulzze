@@ -106,7 +106,7 @@ h1 {
 @media (min-width: 1025px) {
     .Header {
         padding: 5rem 10%;
-        background-size: 42rem;
+        background-size: 100vh;
         height: 100vh;
         display: flex;
         flex-direction: row;
@@ -123,7 +123,6 @@ h1 {
 @media (min-width: 1281px) {
     .Header {
         padding: 5rem 14%;
-        background-size: 34rem;
     }
 }
 
