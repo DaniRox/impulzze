@@ -26,7 +26,7 @@
     gap: 3rem;
 }
 
-.ComoFuncionaEmpresasContent__CardCircle {
+.ComoFuncionaEmpresasContent__CardCircle1, .ComoFuncionaEmpresasContent__CardCircle2, .ComoFuncionaEmpresasContent__CardCircle3 {
     min-width: 13rem;
     width: 13rem;
     height: 13rem;
@@ -77,6 +77,14 @@
     .ComoFuncionaEmpresas {
         padding: 5rem 10%;
         width: 100vw;
+    }
+
+    .ComoFuncionaEmpresasContent__CardCircle2 {
+        margin-top: 6rem;
+    }
+
+    .ComoFuncionaEmpresasContent__CardCircle1 {
+        margin-top: 2rem;
     }
 }
 

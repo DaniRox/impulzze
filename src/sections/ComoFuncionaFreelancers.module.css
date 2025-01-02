@@ -46,13 +46,6 @@
     box-shadow: -2px 2px 10px 0px rgba(80,80,80,0.5);
 }
 
-.ComoFuncionaFreelancersContent__CardCircle2 {
-    margin-top: 6rem;
-}
-
-.ComoFuncionaFreelancersContent__CardCircle1 {
-    margin-top: 2rem;
-}
 
 .CardCircle__text {
     font-family: var(--font-secondary);
@@ -85,6 +78,14 @@
     .ComoFuncionaFreelancers {
         padding: 5rem 10% 0;
         width: 100vw;
+    }
+
+    .ComoFuncionaFreelancersContent__CardCircle2 {
+        margin-top: 6rem;
+    }
+
+    .ComoFuncionaFreelancersContent__CardCircle1 {
+        margin-top: 2rem;
     }
 }
 

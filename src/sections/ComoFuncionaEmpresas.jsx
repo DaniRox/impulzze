@@ -16,15 +16,15 @@ const ComoFuncionaEmpresas = () => {
             <h1 className={styles.ComoFuncionaEmpresas__title}>¿Como Funciona?</h1>
 
             <div className={styles.ComoFuncionaEmpresasContent}>
-                <div className={styles.ComoFuncionaEmpresasContent__CardCircle}>
+                <div className={styles.ComoFuncionaEmpresasContent__CardCircle1}>
                     <p className={styles.CardCircle__text}>Proporciona algunos detalles básicos sobre tu empresa y tus necesidades.</p>
                 </div>
 
-                <div className={styles.ComoFuncionaEmpresasContent__CardCircle}>
+                <div className={styles.ComoFuncionaEmpresasContent__CardCircle2}>
                     <p className={styles.CardCircle__text}>Describe tus proyectos y especifica los requerimientos del freelancer ideal.</p>
                 </div>
 
-                <div className={styles.ComoFuncionaEmpresasContent__CardCircle}>
+                <div className={styles.ComoFuncionaEmpresasContent__CardCircle3}>
                     <p className={styles.CardCircle__text}>Recibe propuestas de freelancers y selecciona al candidato que mejor se ajuste a tus expectativas.</p>
                 </div>
             </div>
