@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./Navbar.module.css";
 import Button from "../components/Button";
 import Logotipo1 from "../components/Logotipo1";
 
 const Navbar = () => {
+    const scrollToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    };
+
     return (
         <nav className={styles.Navbar}>
 

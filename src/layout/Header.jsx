@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import styles from "./Header.module.css";
 import Logotipo1 from "../components/Logotipo1";
 import Button from "../components/Button";
