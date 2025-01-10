@@ -1,5 +1,5 @@
 .ComoFuncionaEmpresas {
-    background-color: var(--maiz);
+    background-color: var(--clear);
     padding: 4rem 5% 0;
     display: flex;
     flex-direction: column;
@@ -22,15 +22,19 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-bottom: 4rem;
-    gap: 3rem;
+    padding: 1rem 0;
+    gap: 2rem;
 }
+
+
+
+
 
 .ComoFuncionaEmpresasContent__CardCircle1, .ComoFuncionaEmpresasContent__CardCircle2, .ComoFuncionaEmpresasContent__CardCircle3 {
     min-width: 13rem;
     width: 13rem;
     height: 13rem;
-    background-color: var(--clear);
+    background-color: var(--esmerald);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,9 +43,10 @@
     box-shadow: -2px 2px 10px 0px rgba(80,80,80,0.5);
 }
 
+
 .CardCircle__text {
     font-family: var(--font-secondary);
-    font-size: var(--font-medium);
+    font-size: var(--font-small);
     font-weight: var(--font-weight-light);
     color: var(--dark);
     line-height: 120%;
@@ -70,22 +75,69 @@
     .ComoFuncionaEmpresas {
         padding: 5rem 8% 0;
     }
+
+    .ComoFuncionaEmpresasContent {
+        gap: 3rem;
+    }
+
+    .ComoFuncionaEmpresasContent__CardCircle1, .ComoFuncionaEmpresasContent__CardCircle2, .ComoFuncionaEmpresasContent__CardCircle3 {
+        margin: 2rem 0;
+    }
+
+    /*animaciones de los circulos */
+    @keyframes bounce1 {
+        0%, 100% {
+            transform: translateY(0);
+            background-color: var(--esmerald);
+        }
+        50% {
+            transform: translateY(-32px);
+        }
+    }
+
+    @keyframes bounce2 {
+        0%, 100% {
+            transform: translateY(0);
+            background-color: var(--esmerald);
+        }
+        50% {
+            transform: translateY(-29px);
+        }
+    }
+
+    @keyframes bounce3 {
+        0%, 100% {
+            transform: translateY(0);
+            background-color: var(--esmerald);
+        }
+        50% {
+            transform: translateY(-38px);
+        }
+    }
+    .ComoFuncionaEmpresasContent__CardCircle1 {
+        animation: bounce1 3s infinite ease-in-out;
+        transition: background-color 0.5s ease, box-shadow 0.10s ease;
+    }
+
+    .ComoFuncionaEmpresasContent__CardCircle2 {
+        animation: bounce2 2s infinite ease-in-out;
+        transition: background-color 0.6s ease, box-shadow 0.20s ease;
+    }
+
+    .ComoFuncionaEmpresasContent__CardCircle3 {
+        animation: bounce3 4s infinite ease-in-out;
+        transition: background-color 0.15s ease, box-shadow 0.8s ease;
+    }
 }
 
   /* Tabletas grandes / Dispositivos pequeños de escritorio */
 @media (min-width: 1025px) {
     .ComoFuncionaEmpresas {
-        padding: 5rem 10%;
+        padding: 5rem 10% 0;
         width: 100vw;
+
     }
 
-    .ComoFuncionaEmpresasContent__CardCircle2 {
-        margin-top: 6rem;
-    }
-
-    .ComoFuncionaEmpresasContent__CardCircle1 {
-        margin-top: 2rem;
-    }
 }
 
 /* Escritorio */

@@ -79,16 +79,18 @@
     text-align: end;
     font-family: var(--font-secondary);
     color: var(--esmerald);
-    font-size: var(--font-large);
+    font-size: var(--font-large2);
     align-self: flex-end;
+    line-height: 1.7rem;
 }
 
 .span2 {
     width: 100%;
     font-family: var(--font-secondary);
     color: var(--salmon);
-    font-size: var(--font-large);
+    font-size: var(--font-large2);
     align-self: flex-start;
+    line-height: 1.7rem;
 }
 
 /* Móviles estándar */
@@ -120,7 +122,7 @@
     }
 
     .CompromisoImpulzzeContent__spans {
-        width: 60%;
+        width: 80%;
         align-self: center;
     }
 }

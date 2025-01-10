@@ -8,16 +8,16 @@ const Footer = () => {
             <div className={styles.FooterContent}>
 
                 <div className={styles.FooterContent__logotipo}>
-                    <Logotipo2 color="var(--purple)" width="8rem" height="auto"/>
+                    <Logotipo2 color="var(--esmerald)" width="8rem" height="auto"/>
                     <span>Conectando talento global<br></br>con soluciones innovadoras</span>
                 </div>
 
                 <div className={styles.FooterContent__links}>
                     <div className={styles.links__internalLinks}>
-                        <a href="#SobreImpulzze" target="_blank" rel="noopener noreferrer" className={styles.link}>Sobre Impulzze</a>
-                        <a href="ImpulzzeEmpresas" target="_blank" rel="noopener noreferrer" className={styles.link}>Impulzze para Empresas</a>
-                        <a href="CompromisoImpulzze" target="_blank" rel="noopener noreferrer" className={styles.link}>Compromiso Impulzze</a>
-                        <a href="" target="_blank" rel="noopener noreferrer" className={styles.link}>Impulzze para Freelancers</a>
+                        <a href="#SobreImpulzze" rel="noopener noreferrer" className={styles.link}>Sobre Impulzze</a>
+                        <a href="ImpulzzeEmpresas" rel="noopener noreferrer" className={styles.link}>Impulzze para Empresas</a>
+                        <a href="CompromisoImpulzze" rel="noopener noreferrer" className={styles.link}>Compromiso Impulzze</a>
+                        <a href="" rel="noopener noreferrer" className={styles.link}>Impulzze para Freelancers</a>
                     </div>
                     <div className={styles.links__socialLinks}>
                         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className={styles.link}>LinkedIn</a>

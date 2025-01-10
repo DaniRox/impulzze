@@ -33,6 +33,7 @@ const ComoFuncionaEmpresas = () => {
                 <Button
                     text="Comienza a impulzzar tu equipo"
                     backgroundColor="var(--esmerald)"
+                    hoverColor="var(--maiz)"
                     onClick={() => scrollToSection("RegistraEmpresas")}
                 />
             </div>

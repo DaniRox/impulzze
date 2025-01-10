@@ -1,9 +1,9 @@
 .SobreImpulzze {
-    background-color: var(--salmon);
+    background-color: var(--clear);
     padding: 4rem 5%;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3.5rem;
     align-items: flex-end;
 }
 
@@ -14,17 +14,18 @@
 
 .SobreImpulzzeContent__title {
     width: 100%;
-    color: var(--maiz);
+    color: var(--purple);
     font-family: var(--font-secondary);
     font-weight: var(--font-weight-black);
     font-size: var(--font-Xlarge);
     text-align: end;
     max-width: 35rem;
     align-self: flex-end;
+    line-height: 2.1rem;
 }
 
 .SobreImpulzzeContent__text {
-    background-color: var(--clear);
+    background-color: var(--salmon);
     padding: 3rem 4.5rem 4.5rem 3rem;
     border-radius: 80rem 0 150rem 80rem;
     line-height: 110%;
@@ -35,6 +36,16 @@
     font-family: var(--font-primary);
     font-weight: var(--font-weight-regular);
     font-size: var(--font-medium);
+}
+
+.highlighted {
+    background-color: var(--esmerald);
+    font-style: italic;
+}
+
+.textItalic {
+    font-style: italic;
+    font-family: var(--font-secondary);
 }
 
 .SobreImpulzzeContent__shapes {

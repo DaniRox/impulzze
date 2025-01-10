@@ -9,13 +9,13 @@ const SobreImpulzze = () => {
     return (
         <section className={styles.SobreImpulzze} id="SobreImpulzze">
 
-            <h2 className={styles.SobreImpulzzeContent__title}>La plataforma donde las empresas y freelancers crean éxito juntos.</h2>
+            <h2 className={styles.SobreImpulzzeContent__title}>La plataforma donde las <span className={styles.highlighted}>empresas</span> y <span className={styles.highlighted}>freelancers</span> crean éxito juntos.</h2>
 
             <div className={styles.SobreImpulzzeContent}>
                 <div className={styles.SobreImpulzzeContent__text}>
                     <p className={styles.text}>
-                        Impulzze es el ecosistema digital que conecta a empresas que buscan agilidad y talento con freelancers expertos listos para adaptarse a sus desafíos.<br></br><br></br>
-                        Desde Recursos Humanos hasta Proyectos Especializados, transformamos conexiones en resultados.
+                        <span className={styles.textItalic}>Impulzze</span> es el ecosistema digital que <span className={styles.textItalic}>conecta</span> a empresas que buscan <span className={styles.textItalic}>agilidad</span> y <span className={styles.textItalic}>talento</span> con freelancers expertos listos para adaptarse a sus desafíos.<br></br><br></br>
+                        Desde Recursos Humanos hasta Proyectos Especializados, transformamos <span className={styles.textItalic}>conexiones</span> en <span className={styles.textItalic}>resultados</span>.
                     </p>
                 </div>
 

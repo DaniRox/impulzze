@@ -65,11 +65,13 @@ const Header = () => {
                     <Button
                         text="Explora servicios y potencia tu proyecto"
                         backgroundColor="var(--maiz)"
+                        hoverColor="var(--esmerald)"
                         onClick={() => scrollToSection("ImpulzzeEmpresas")}
                     />
                     <Button
                         text="Contáctanos y creemos soluciones"
                         backgroundColor="var(--salmon)"
+                        hoverColor="var(--esmerald)"
                         onClick={() => scrollToSection("ImpulzzeFreelancers")}
                     />
                 </div>

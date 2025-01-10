@@ -33,6 +33,7 @@ const ComoFuncionaFreelancers = () => {
                 <Button
                     text="Se parte de Impulzze"
                     backgroundColor="var(--salmon)"
+                    hoverColor="var(--esmerald)"
                     onClick={() => scrollToSection("RegistraFreelancers")}
                 />
             </div>

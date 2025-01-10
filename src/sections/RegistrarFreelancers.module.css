@@ -28,7 +28,7 @@
     color: var(--dark);
     font-family: var(--font-secondary);
     font-weight: var(--font-weight-black);
-    font-size: var(--font-medium);
+    font-size: var(--font-large);
     text-align: start;
     max-width: 35rem;
     line-height: 120%;
@@ -60,24 +60,27 @@ form {
     padding: 0.7rem;
     color: var(--dark);
     font-family: var(--font-primary);
-    font-size: var(--font-medium);
+    font-size: var(--font-small);
     font-weight: var(--font-weight-medium);
 }
 
 .formSubmit {
-    width: 100%;
+    width: min-content;
     height: 2.3rem;
     background-color: var(--salmon);
     border: none;
     border-radius: 0.4rem;
     padding: 0.7rem;
     color: var(--dark);
-    font-family: var(--font-primary);
-    font-size: var(--font-medium);
+    font-family: var(--font-secondary);
+    font-size: var(--font-small);
     font-weight: var(--font-weight-medium);
     cursor: pointer;
+    display: flex;
+    align-self: flex-end;
     text-align: start;
     transition: all 200ms;
+    box-shadow: -2px 2px 4px 0px rgba(80,80,80,0.5);
 }
 
 .formSubmit:hover {

@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 3.5rem;
 }
 
 .ImpulzzeEmpresas__title {
@@ -25,6 +25,10 @@
     gap: 3rem;
 }
 
+.highlighted {
+    font-style: italic;
+    font-weight: 600;
+}
 
 
 /* Móviles estándar */

@@ -1,5 +1,6 @@
 .button {
     color: var(--dark);
+    background-color: var(--background-color);
     border: none;
     font-family: var(--font-secondary);
     font-weight: var(--font-weight-light);
@@ -14,6 +15,7 @@
 .button:hover {
     transform: scale(1.01, 1.01);
     box-shadow: -3px 4px 8px 0px rgba(0,0,0,0.5);
+    background-color: var(--hover-color);
 }
 
 .button:active {
