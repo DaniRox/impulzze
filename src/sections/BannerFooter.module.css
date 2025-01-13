@@ -60,7 +60,6 @@
 /* Móviles estándar */
 @media (min-width: 481px) {
     .BannerFooterContent {
-        flex-direction: row;
         align-items: flex-start;
     }
 
@@ -75,6 +74,10 @@
         padding: 5rem 8%;
         background-size: 48rem;
         background-position: left top;
+    }
+
+    .BannerFooterContent {
+        flex-direction: row;
     }
 }
 
