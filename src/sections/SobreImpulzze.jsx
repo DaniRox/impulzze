@@ -24,7 +24,10 @@ const SobreImpulzze = () => {
                         <Circle size={100} color="var(--esmerald)"/>
                         <HalfCircle width={50} height={100} color="var(--purple)" />
                     </div>
-                    <Logotipo1 color="var(--maiz)" width="3.5rem" height="auto"/>
+                    <div className={styles.logotipo}>
+                        <Logotipo1 color="var(--clear)" width="4rem" height="auto"/>
+                    </div>
+
                 </div>
             </div>
 

@@ -12,10 +12,11 @@
     color: var(--dark);
     font-family: var(--font-secondary);
     font-weight: var(--font-weight-black);
-    font-size: var(--font-Xlarge);
+    font-size: var(--font-secondary-large);
     text-align: start;
     max-width: 35rem;
     align-self: self-start;
+    line-height: 110%;
 }
 
 .ComoFuncionaEmpresasContent {
@@ -31,9 +32,9 @@
 
 
 .ComoFuncionaEmpresasContent__CardCircle1, .ComoFuncionaEmpresasContent__CardCircle2, .ComoFuncionaEmpresasContent__CardCircle3 {
-    min-width: 13rem;
-    width: 13rem;
-    height: 13rem;
+    min-width: 14.5rem;
+    width: 14.5rem;
+    height: 14.5rem;
     background-color: var(--esmerald);
     display: flex;
     align-items: center;
@@ -46,7 +47,7 @@
 
 .CardCircle__text {
     font-family: var(--font-secondary);
-    font-size: var(--font-small);
+    font-size: var(--font-secondary-medium);
     font-weight: var(--font-weight-light);
     color: var(--dark);
     line-height: 120%;
@@ -67,6 +68,10 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .ComoFuncionaEmpresas__title {
+        font-size: var(--font-secondary-Xlarge);
     }
 }
 
@@ -134,7 +139,6 @@
 @media (min-width: 1025px) {
     .ComoFuncionaEmpresas {
         padding: 5rem 10% 0;
-        width: 100vw;
 
     }
 

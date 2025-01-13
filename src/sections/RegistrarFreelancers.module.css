@@ -1,5 +1,4 @@
 .RegistrarFreelancers {
-    width: 100%;
     background-color: var(--salmon);
     padding: 4rem 5%;
     display: flex;
@@ -18,7 +17,7 @@
     color: var(--clear);
     font-family: var(--font-secondary);
     font-weight: var(--font-weight-black);
-    font-size: var(--font-Xlarge);
+    font-size: var(--font-secondary-large);
     text-align: start;
     max-width: 35rem;
     line-height: 120%;
@@ -28,7 +27,7 @@
     color: var(--dark);
     font-family: var(--font-secondary);
     font-weight: var(--font-weight-black);
-    font-size: var(--font-large);
+    font-size: var(--font-secondary-medium);
     text-align: start;
     max-width: 35rem;
     line-height: 120%;
@@ -70,7 +69,7 @@ form {
     background-color: var(--salmon);
     border: none;
     border-radius: 0.4rem;
-    padding: 0.7rem;
+    padding: 0.7rem 1rem;
     color: var(--dark);
     font-family: var(--font-secondary);
     font-size: var(--font-small);
@@ -90,7 +89,9 @@ form {
 
 /* Móviles estándar */
 @media (min-width: 481px) {
-
+    .RegistrarFreelancers__title {
+        font-size: var(--font-secondary-Xlarge);
+    }
 }
 
   /* Tabletas pequeñas */

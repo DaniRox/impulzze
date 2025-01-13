@@ -1,5 +1,5 @@
 .ComoFuncionaFreelancers {
-    background-color: var(--salmon);
+    background-color: var(--clear);
     padding: 4rem 5% 0;
     display: flex;
     flex-direction: column;
@@ -12,11 +12,11 @@
     color: var(--dark);
     font-family: var(--font-secondary);
     font-weight: var(--font-weight-black);
-    font-size: var(--font-Xlarge);
+    font-size: var(--font-secondary-large);
     text-align: start;
     max-width: 35rem;
     align-self: self-start;
-    line-height: 2.1rem;
+    line-height: 110%;
 }
 
 .ComoFuncionaFreelancersContent {
@@ -35,10 +35,10 @@
 }
 
 .ComoFuncionaFreelancersContent__CardCircle1, .ComoFuncionaFreelancersContent__CardCircle2, .ComoFuncionaFreelancersContent__CardCircle3 {
-    min-width: 13rem;
-    width: 13rem;
-    height: 13rem;
-    background-color: var(--clear);
+    min-width: 14.5rem;
+    width: 14.5rem;
+    height: 14.5rem;
+    background-color: var(--salmon);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,7 +54,7 @@
 
 .CardCircle__text {
     font-family: var(--font-secondary);
-    font-size: var(--font-small);
+    font-size: var(--font-secondary-medium);
     font-weight: var(--font-weight-light);
     color: var(--dark);
     line-height: 120%;
@@ -68,6 +68,10 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .ComoFuncionaFreelancers__title {
+        font-size: var(--font-secondary-Xlarge);
     }
 }
 
@@ -131,7 +135,6 @@
 @media (min-width: 1025px) {
     .ComoFuncionaFreelancers {
         padding: 5rem 10% 0;
-        width: 100vw;
     }
 
 }

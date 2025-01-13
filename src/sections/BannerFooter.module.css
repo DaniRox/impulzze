@@ -3,7 +3,6 @@
     padding: 4rem 5%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 2rem;
 }
 
@@ -12,7 +11,7 @@
     color: var(--esmerald);
     font-family: var(--font-secondary);
     font-weight: var(--font-weight-black);
-    font-size: var(--font-Xlarge);
+    font-size: var(--font-secondary-large);
     text-align: start;
     max-width: 35rem;
     align-self: self-start;
@@ -33,7 +32,7 @@
 
 .text {
     font-family: var(--font-secondary);
-    font-size: var(--font-medium);
+    font-size: var(--font-secondary-medium);
     font-weight: var(--font-weight-light);
     color: var(--dark);
     line-height: 120%;
@@ -45,6 +44,10 @@
     .BannerFooterContent {
         flex-direction: row;
         align-items: flex-start;
+    }
+
+    .BannerFooter__title {
+        font-size: var(--font-secondary-Xlarge);
     }
 }
 
@@ -59,7 +62,6 @@
 @media (min-width: 1025px) {
     .BannerFooter {
         padding: 5rem 10%;
-        width: 100vw;
     }
 }
 

@@ -1,5 +1,4 @@
 .RegistrarEmpresa {
-    width: 100%;
     background-color: var(--esmerald);
     padding: 4rem 5%;
     display: flex;
@@ -18,7 +17,7 @@
     color: var(--clear);
     font-family: var(--font-secondary);
     font-weight: var(--font-weight-black);
-    font-size: var(--font-Xlarge);
+    font-size: var(--font-secondary-large);
     text-align: start;
     max-width: 35rem;
     line-height: 120%;
@@ -29,7 +28,7 @@
     color: var(--dark);
     font-family: var(--font-secondary);
     font-weight: var(--font-weight-black);
-    font-size: var(--font-large);
+    font-size: var(--font-secondary-medium);
     text-align: start;
     max-width: 35rem;
     line-height: 120%;
@@ -91,6 +90,9 @@ form {
 
 /* Móviles estándar */
 @media (min-width: 481px) {
+    .RegistrarEmpresa__title {
+        font-size: var(--font-secondary-Xlarge);
+    }
 
 }
 

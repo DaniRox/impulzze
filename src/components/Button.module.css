@@ -4,8 +4,8 @@
     border: none;
     font-family: var(--font-secondary);
     font-weight: var(--font-weight-light);
-    font-size: var(--font-medium);
-    padding: 0.6rem 1rem;
+    font-size: var(--font-secondary-small);
+    padding: 0.6rem 0.5rem;
     border-radius: 0.4rem;
     cursor: pointer;
     transition: all 200ms;
@@ -27,6 +27,6 @@
 
 @media (min-width: 769px) {
     .button {
-        font-size: var(--font-small);
+        padding: 0.6rem 1rem;
     }
 }

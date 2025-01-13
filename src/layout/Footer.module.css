@@ -16,7 +16,7 @@
     flex-direction: column;
     font-size: var(--font-small);
     font-weight: var(--font-weight-light);
-    line-height: 0.8rem;
+    line-height: 110%;
 }
 
 

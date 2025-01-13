@@ -12,7 +12,7 @@
     color: var(--dark);
     font-family: var(--font-secondary);
     font-weight: var(--font-weight-black);
-    font-size: var(--font-Xlarge);
+    font-size: var(--font-secondary-large);
     text-align: end;
     max-width: 35rem;
     align-self: flex-end;
@@ -38,6 +38,10 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .ImpulzzeFreelancers__title {
+        font-size: var(--font-secondary-Xlarge);
     }
 }
 
