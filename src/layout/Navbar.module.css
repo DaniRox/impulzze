@@ -18,6 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: -2px 2px 10px 0px rgba(80,80,80,0.5);
 }
 
 .NavbarContent__buttons {

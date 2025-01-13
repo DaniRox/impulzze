@@ -41,7 +41,7 @@ form {
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .col1, .col2 {
@@ -104,6 +104,7 @@ form {
         width: 100%;
         max-width: 40rem;
         flex-direction: row;
+        gap: 2rem;
     }
 
     .col1, .col2 {

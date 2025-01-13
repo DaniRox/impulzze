@@ -2,7 +2,7 @@
     background-color: var(--dark);
     color: var(--clear);
     font-family: var(--font-primary);
-    padding: 2rem 5%;
+    padding: 2rem 5% 1.5rem;
 }
 
 .FooterContent {
@@ -67,7 +67,7 @@
   /* Tabletas pequeñas */
 @media (min-width: 769px) {
     .Footer {
-        padding: 3rem 8%;
+        padding: 3rem 8% 1.5rem;
     }
 
     .FooterContent {

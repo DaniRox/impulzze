@@ -11,7 +11,7 @@ const BannerFooter = () => {
 
             <div className={styles.BannerFooterContent}>
                 <div className={styles.BannerFooterContent__shapes}>
-                    <Logotipo1 color="var(--maiz)" width="6rem" height="auto"/>
+                    <Logotipo1 color="var(--purple)" width="5.2rem" height="auto"/>
                 </div>
 
                 <div className={styles.BannerFooterContent__text}>
