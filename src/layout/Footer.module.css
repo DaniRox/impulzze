@@ -55,7 +55,7 @@
     .FooterContent__links {
         flex-direction: row;
         justify-content: flex-start;
-        gap: 16rem;
+        gap: 14rem;
     }
 
     .links__internalLinks, .links__socialLinks {
