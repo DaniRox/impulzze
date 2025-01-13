@@ -52,7 +52,7 @@
     font-family: var(--font-secondary);
     font-size: var(--font-secondary-medium);
     font-weight: var(--font-weight-light);
-    color: var(--dark);
+    color: var(--clear);
     line-height: 120%;
 }
 
