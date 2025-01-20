@@ -8,8 +8,7 @@ const RegistrarFreelancers = () => {
         <section className={styles.RegistrarFreelancers} id="RegistraFreelancers">
 
             <div className={styles.RegistrarFreelancers__titles}>
-                <h1 className={styles.RegistrarFreelancers__title}>Registra Tu Freelancers
-                y Encuentra el Talento que Necesitas</h1>
+                <h1 className={styles.RegistrarFreelancers__title}>Se Impulzzer hoy y Comienza a Impulzzar tu Carrera</h1>
                 <h2 className={styles.RegistrarFreelancers__subtitle}>Completa la información a continuación para comenzar a publicar proyectos y recibir propuestas.</h2>
             </div>
 

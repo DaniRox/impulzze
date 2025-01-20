@@ -7,7 +7,7 @@ const BannerFooter = () => {
     return (
         <section className={styles.BannerFooter}>
 
-            <h2 className={styles.BannerFooter__title}>La plataforma donde las empresas y freelancers crean éxito juntos.</h2>
+            <h2 className={styles.BannerFooter__title}>Transforma tu visión con el talento correcto. Conecta y crea éxito.</h2>
 
             <div className={styles.BannerFooterContent}>
                 <div className={styles.BannerFooterContent__shapes}>
@@ -16,8 +16,7 @@ const BannerFooter = () => {
 
                 <div className={styles.BannerFooterContent__text}>
                     <p className={styles.text}>
-                        Impulzze es el ecosistema digital que conecta a empresas que buscan agilidad y talento con freelancers expertos listos para adaptarse a sus desafíos.<br></br><br></br>
-                        Desde Recursos Humanos hasta Proyectos Especializados, transformamos conexiones en resultados.
+                    Sea que necesites talento para tu empresa o quieras llevar tu carrera al siguiente nivel, en Impulzze tienes el punto de partida.
                     </p>
                 </div>
 

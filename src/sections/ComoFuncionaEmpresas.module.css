@@ -20,16 +20,16 @@
 }
 
 .ComoFuncionaEmpresasContent {
+    width: 100%;
+    padding: 2rem 10%;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 1rem 0;
-    gap: 2rem;
+    flex-direction: row;
+    align-items: center;
+    gap: 35%;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
-
-
-
-
 
 .ComoFuncionaEmpresasContent__CardCircle1, .ComoFuncionaEmpresasContent__CardCircle2, .ComoFuncionaEmpresasContent__CardCircle3 {
     min-width: 14.5rem;
@@ -65,9 +65,8 @@
 /* Móviles estándar */
 @media (min-width: 481px) {
     .ComoFuncionaEmpresasContent {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+        padding: 2rem 20%;
+        gap: 50%;
     }
 
     .ComoFuncionaEmpresas__title {
@@ -82,7 +81,11 @@
     }
 
     .ComoFuncionaEmpresasContent {
-        gap: 3rem;
+        padding: 2rem 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0rem 4rem;
     }
 
     .ComoFuncionaEmpresasContent__CardCircle1, .ComoFuncionaEmpresasContent__CardCircle2, .ComoFuncionaEmpresasContent__CardCircle3 {
@@ -139,7 +142,6 @@
 @media (min-width: 1025px) {
     .ComoFuncionaEmpresas {
         padding: 5rem 10% 0;
-
     }
 
 }

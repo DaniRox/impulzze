@@ -7,8 +7,7 @@ import { Oportunidades, Crecimiento, Seguridad } from "../components/Icons";
 const ImpulzzeFreelancers = () => {
     return (
         <section className={styles.ImpulzzeFreelancers} id="ImpulzzeFreelancers">
-            <h1 className={styles.ImpulzzeFreelancers__title}>Impulzzers Globales:
-            Ventajas de unirte a Impulzze</h1>
+            <h1 className={styles.ImpulzzeFreelancers__title}>"Unete a Impulzze y se parte de una comunidad Global de Freelancers"</h1>
 
             <div className={styles.ImpulzzeFreelancersContent}>
 

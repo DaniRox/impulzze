@@ -52,10 +52,10 @@ const Footer = () => {
                             Compromiso Impulzze
                         </a>
                         <a
-                            href="#Freelancers"
+                            href="#ImpulzzeFreelancers"
                             onClick={(e) => {
                                 e.preventDefault();
-                                scrollToSection("Freelancers");
+                                scrollToSection("ImpulzzeFreelancers");
                             }}
                             className={styles.link}
                         >

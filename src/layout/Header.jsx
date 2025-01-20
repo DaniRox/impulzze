@@ -42,6 +42,7 @@ const Header = () => {
 
     return (
         <header className={styles.Header}>
+
         <div className={styles.HeaderContent}>
             <div className={styles.HeaderContent__text}>
                 <h1>

@@ -21,13 +21,19 @@
     text-align: end;
     max-width: 35rem;
     align-self: flex-end;
+    line-height: 120%;
 }
 
 .ImpulzzeFreelancersContent {
+    width: 100%;
+    padding: 2rem 10%;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 3rem;
+    flex-direction: row;
+    align-items: center;
+    gap: 35%;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 
@@ -40,9 +46,8 @@
 /* Móviles estándar */
 @media (min-width: 481px) {
     .ImpulzzeFreelancersContent {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+        padding: 2rem 20%;
+        gap: 50%;
     }
 
     .ImpulzzeFreelancers__title {
@@ -56,12 +61,23 @@
         padding: 5rem 8%;
     }
 
+    .ImpulzzeFreelancersContent {
+        padding: 2rem 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4rem;
+    }
 }
 
   /* Tabletas grandes / Dispositivos pequeños de escritorio */
 @media (min-width: 1025px) {
     .ImpulzzeFreelancers {
         padding: 5rem 10%;
+    }
+
+    .ImpulzzeFreelancersContent {
+        gap: 5rem;
     }
 }
 
