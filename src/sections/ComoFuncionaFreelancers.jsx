@@ -25,7 +25,7 @@ const ComoFuncionaFreelancers = () => {
                 </div>
 
                 <div className={styles.ComoFuncionaFreelancersContent__CardCircle3}>
-                    <p className={styles.CardCircle__text}>Recibe propuestas de freelancers y selecciona al candidato que mejor se ajuste a tus expectativas.</p>
+                    <p className={styles.CardCircle__text}>Disfruta de una experiencia de trabajo efectiva con el respaldo y la seguridad que ofrece Impulzze.</p>
                 </div>
             </div>
 
