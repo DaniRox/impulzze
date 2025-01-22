@@ -14,8 +14,22 @@
     font-weight: var(--font-weight-black);
     font-size: var(--font-secondary-large);
     text-align: start;
+    max-width: 35rem;
     align-self: flex-start;
     line-height: 120%;
+}
+
+.arrowLeft, .arrowRight {
+    position: absolute;
+    margin-top: 12rem;
+}
+
+.arrowLeft {
+    right: 0;
+}
+
+.arrowRight {
+    left: 0;
 }
 
 .CasosDeExitoContent {
@@ -43,6 +57,10 @@
         gap: 50%;
     }
 
+    .arrowLeft, .arrowRight {
+        margin-top: 14rem;
+    }
+
     .CasosDeExito__title {
         font-size: var(--font-secondary-Xlarge);
     }
@@ -59,8 +77,12 @@
         padding: 0rem 8%;
     }
 
+    .arrowLeft, .arrowRight {
+        margin-top: 15rem;
+    }
+
     .CasosDeExitoContent {
-        padding: 3rem 10%;
+        padding: 3rem 20%;
         gap: 7.5rem;
     }
 }
@@ -74,6 +96,10 @@
     .CasosDeExito__title {
         padding: 0rem 10%;
     }
+
+    .arrowLeft, .arrowRight {
+        margin-top: 15rem;
+    }
 }
 
   /* Escritorio */
@@ -85,6 +111,7 @@
 
     .CasosDeExito__title {
         padding: 0rem 14%;
+        max-width: 44rem;
     }
 
     .CasosDeExitoContent {

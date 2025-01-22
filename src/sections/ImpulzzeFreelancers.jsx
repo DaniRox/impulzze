@@ -1,13 +1,28 @@
 import React from 'react';
 import styles from "./ImpulzzeFreelancers.module.css";
 import CardFreelancers from "../components/CardFreelancers";
+import ArrowLeft from "../components/ArrowLeft";
+import ArrowRight from "../components/ArrowRight";
 import { Oportunidades, Crecimiento, Seguridad } from "../components/Icons";
 
 
 const ImpulzzeFreelancers = () => {
     return (
         <section className={styles.ImpulzzeFreelancers} id="ImpulzzeFreelancers">
-            <h1 className={styles.ImpulzzeFreelancers__title}>"Unete a Impulzze y se parte de una comunidad Global de Freelancers"</h1>
+            <h1 className={styles.ImpulzzeFreelancers__title}>Unete a Impulzze y se parte de una comunidad Global de Freelancers</h1>
+
+
+            <ArrowLeft
+                size={80}
+                color="var(--esmerald)"
+                className={styles.arrowLeft}
+            />
+
+            <ArrowRight
+                size={80}
+                color="var(--esmerald)"
+                className={styles.arrowRight}
+            />
 
             <div className={styles.ImpulzzeFreelancersContent}>
 

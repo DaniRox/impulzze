@@ -20,6 +20,19 @@
     line-height: 110%;
 }
 
+.arrowLeft, .arrowRight {
+    position: absolute;
+    margin-top: 11rem;
+}
+
+.arrowLeft {
+    right: 0;
+}
+
+.arrowRight {
+    left: 0;
+}
+
 .ComoFuncionaFreelancersContent {
     width: 100%;
     padding: 2rem 20%;
@@ -34,7 +47,8 @@
 
 .ComoFuncionaFreelancers__buton {
     background-color: var(--purple);
-    bottom: -3rem;
+    bottom: -4rem;
+    position: relative;
     padding: 1.5rem 3rem;
     border-radius: 140rem 60rem 0 0;
     align-self: flex-start;
@@ -82,8 +96,17 @@
         padding: 5rem 8% 0;
     }
 
+    .ComoFuncionaFreelancers__buton {
+        background-color: var(--purple);
+        bottom: 0rem;
+    }
+
     .ComoFuncionaFreelancersContent__CardCircle1, .ComoFuncionaFreelancersContent__CardCircle2, .ComoFuncionaFreelancersContent__CardCircle3 {
         margin: 2rem 0;
+    }
+
+    .arrowLeft, .arrowRight {
+        display: none;
     }
 
     .ComoFuncionaFreelancersContent {

@@ -20,6 +20,19 @@
     line-height: 110%;
 }
 
+.arrowLeft, .arrowRight {
+    position: absolute;
+    margin-top: 11rem;
+}
+
+.arrowLeft {
+    right: 0;
+}
+
+.arrowRight {
+    left: 0;
+}
+
 .ComoFuncionaEmpresasContent {
     width: 100%;
     padding: 2rem 20%;
@@ -56,7 +69,8 @@
 
 .ComoFuncionaEmpresas__buton {
     background-color: var(--salmon);
-    bottom: -3rem;
+    bottom: -4rem;
+    position: relative;
     padding: 1.5rem 3rem;
     border-radius: 140rem 60rem 0 0;
     align-self: flex-end;
@@ -81,12 +95,20 @@
         padding: 5rem 8% 0;
     }
 
+    .arrowLeft, .arrowRight {
+        display: none;
+    }
+
     .ComoFuncionaEmpresasContent {
         padding: 2rem 0;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         gap: 0rem 4rem;
+    }
+
+    .ComoFuncionaEmpresas__buton {
+        bottom: 0rem;
     }
 
     .ComoFuncionaEmpresasContent__CardCircle1, .ComoFuncionaEmpresasContent__CardCircle2, .ComoFuncionaEmpresasContent__CardCircle3 {

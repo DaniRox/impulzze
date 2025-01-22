@@ -25,6 +25,19 @@
     line-height: 120%;
 }
 
+.arrowLeft, .arrowRight {
+    position: absolute;
+    margin-top: 20rem;
+}
+
+.arrowLeft {
+    right: 0;
+}
+
+.arrowRight {
+    left: 0;
+}
+
 .ImpulzzeFreelancersContent {
     width: 100%;
     padding: 2rem 20%;
@@ -60,6 +73,10 @@
 @media (min-width: 769px) {
     .ImpulzzeFreelancers {
         padding: 5rem 8%;
+    }
+
+    .arrowLeft, .arrowRight {
+        display: none;
     }
 
     .ImpulzzeFreelancersContent {

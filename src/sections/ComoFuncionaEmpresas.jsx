@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from "./ComoFuncionaEmpresas.module.css";
 import Button from "../components/Button";
+import ArrowLeft from "../components/ArrowLeft";
+import ArrowRight from "../components/ArrowRight";
 
 
 const ComoFuncionaEmpresas = () => {
@@ -14,6 +16,18 @@ const ComoFuncionaEmpresas = () => {
     return (
         <section className={styles.ComoFuncionaEmpresas}>
             <h1 className={styles.ComoFuncionaEmpresas__title}>¿Como Funciona?</h1>
+
+            <ArrowLeft
+                size={80}
+                color="var(--salmon)"
+                className={styles.arrowLeft}
+            />
+
+            <ArrowRight
+                size={80}
+                color="var(--salmon)"
+                className={styles.arrowRight}
+            />
 
             <div className={styles.ComoFuncionaEmpresasContent}>
                 <div className={styles.ComoFuncionaEmpresasContent__CardCircle1}>

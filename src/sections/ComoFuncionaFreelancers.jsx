@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from "./ComoFuncionaFreelancers.module.css";
 import Button from "../components/Button";
+import ArrowLeft from "../components/ArrowLeft";
+import ArrowRight from "../components/ArrowRight";
 
 
 const ComoFuncionaFreelancers = () => {
@@ -14,6 +16,18 @@ const ComoFuncionaFreelancers = () => {
     return (
         <section className={styles.ComoFuncionaFreelancers}>
             <h1 className={styles.ComoFuncionaFreelancers__title}>¿Como Funciona?</h1>
+
+            <ArrowLeft
+                size={80}
+                color="var(--purple)"
+                className={styles.arrowLeft}
+            />
+
+            <ArrowRight
+                size={80}
+                color="var(--purple)"
+                className={styles.arrowRight}
+            />
 
             <div className={styles.ComoFuncionaFreelancersContent}>
                 <div className={styles.ComoFuncionaFreelancersContent__CardCircle1}>
@@ -37,6 +51,7 @@ const ComoFuncionaFreelancers = () => {
                     onClick={() => scrollToSection("RegistraFreelancers")}
                 />
             </div>
+
 
         </section>
     );

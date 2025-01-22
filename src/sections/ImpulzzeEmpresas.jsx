@@ -2,12 +2,27 @@ import React from 'react';
 import styles from "./ImpulzzeEmpresas.module.css";
 import CardEmpresas from "../components/CardEmpresas";
 import { Talento, Agilidad, Recursos } from "../components/Icons";
+import ArrowLeft from "../components/ArrowLeft";
+import ArrowRight from "../components/ArrowRight";
 
 
 const ImpulzzeEmpresas = () => {
     return (
         <section className={styles.ImpulzzeEmpresas} id="ImpulzzeEmpresas">
             <h1 className={styles.ImpulzzeEmpresas__title}>Encuentra talento Global para tu Empresa</h1>
+
+
+            <ArrowLeft
+                size={80}
+                color="var(--salmon)"
+                className={styles.arrowLeft}
+            />
+
+            <ArrowRight
+                size={80}
+                color="var(--salmon)"
+                className={styles.arrowRight}
+            />
 
             <div className={styles.ImpulzzeEmpresasContent}>
 
