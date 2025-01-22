@@ -61,6 +61,16 @@ const Footer = () => {
                         >
                             Impulzze para Freelancers
                         </a>
+                        <a
+                            href="#CasosDeExito"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                scrollToSection("CasosDeExito");
+                            }}
+                            className={styles.link}
+                        >
+                            Casos de Éxito
+                        </a>
                     </div>
                     <div className={styles.links__socialLinks}>
                         <a

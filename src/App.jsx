@@ -17,6 +17,7 @@ import ComoFuncionaFreelancers from "./sections/ComoFuncionaFreelancers";
 import RegistrarFreelancers from "./sections/RegistrarFreelancers";
 import BannerFooter from "./sections/BannerFooter";
 import Rrss from "./components/Rrss";
+import CasosDeExito from "./sections/CasosDeExito";
 
 
 const App = () => {
@@ -38,6 +39,8 @@ const App = () => {
                 <ImpulzzeFreelancers />
                 <ComoFuncionaFreelancers />
                 <RegistrarFreelancers />
+
+                <CasosDeExito />
 
                 <BannerFooter/>
 

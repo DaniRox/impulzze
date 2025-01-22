@@ -1,0 +1,93 @@
+.CasosDeExito {
+    background-color: var(--purple);
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.5rem;
+}
+
+.CasosDeExito__title {
+    padding: 0rem 5%;
+    color: var(--clear);
+    font-family: var(--font-secondary);
+    font-weight: var(--font-weight-black);
+    font-size: var(--font-secondary-large);
+    text-align: start;
+    align-self: flex-start;
+    line-height: 120%;
+}
+
+.CasosDeExitoContent {
+    width: 100%;
+    padding: 2rem 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35%;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.highlighted {
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+/* Móviles estándar */
+@media (min-width: 481px) {
+    .CasosDeExitoContent {
+        padding: 2rem 20%;
+        gap: 50%;
+    }
+
+    .CasosDeExito__title {
+        font-size: var(--font-secondary-Xlarge);
+    }
+}
+
+  /* Tabletas pequeñas */
+@media (min-width: 769px) {
+
+    .CasosDeExito {
+        padding: 5rem 0;
+    }
+
+    .CasosDeExito__title {
+        padding: 0rem 8%;
+    }
+
+    .CasosDeExitoContent {
+        padding: 3rem 10%;
+        gap: 7.5rem;
+    }
+}
+
+  /* Tabletas grandes / Dispositivos pequeños de escritorio */
+@media (min-width: 1025px) {
+    .CasosDeExito {
+        padding: 5rem 0;
+    }
+
+    .CasosDeExito__title {
+        padding: 0rem 10%;
+    }
+}
+
+  /* Escritorio */
+@media (min-width: 1281px) {
+    /* Estilos para escritorio */
+    .CasosDeExito {
+        padding: 5rem 0;
+    }
+
+    .CasosDeExito__title {
+        padding: 0rem 14%;
+    }
+
+    .CasosDeExitoContent {
+        padding: 4rem 14%;
+    }
+}

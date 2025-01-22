@@ -5,7 +5,7 @@
     background-position: right top;
     background-size: 50rem;
     color: var(--clear);
-    padding: 4rem 5%;
+    padding: 5rem 5%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -72,7 +72,7 @@
   /* Tabletas pequeñas */
 @media (min-width: 769px) {
     .BannerFooter {
-        padding: 5rem 8%;
+        padding: 7rem 8%;
         background-size: 48rem;
         background-position: left top;
     }
@@ -85,7 +85,7 @@
   /* Tabletas grandes / Dispositivos pequeños de escritorio */
 @media (min-width: 1024px) {
     .BannerFooter {
-        padding: 5rem 10%;
+        padding: 7rem 10%;
         background-size: 130vh;
     }
 }
@@ -93,21 +93,21 @@
 /* Escritorio */
 @media (min-width: 1281px) {
     .BannerFooter {
-        padding: 5rem 14%;
+        padding: 7rem 14%;
     }
 }
 
 /* Pantallas grandes de escritorio */
 @media (min-width: 1601px) {
     .BannerFooter {
-        padding: 5rem 16%;
+        padding: 7rem 16%;
     }
 }
 
 /* Pantallas extra grandes */
 @media (min-width: 1921px) {
     .BannerFooter {
-        padding: 5rem 18%;
+        padding: 7rem 18%;
     }
 
     .BannerFooter__title {

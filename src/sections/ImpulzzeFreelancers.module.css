@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 24rem;
-    padding: 4rem 5%;
+    padding: 4rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,13 +20,14 @@
     font-size: var(--font-secondary-large);
     text-align: end;
     max-width: 35rem;
+    padding: 0rem 5%;
     align-self: flex-end;
     line-height: 120%;
 }
 
 .ImpulzzeFreelancersContent {
     width: 100%;
-    padding: 2rem 10%;
+    padding: 2rem 20%;
     display: flex;
     flex-direction: row;
     align-items: center;
