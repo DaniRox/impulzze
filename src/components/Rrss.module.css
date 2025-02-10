@@ -9,8 +9,8 @@
 
 .Rrss__icon {
     background-color: var(--maiz);
-    width: 3rem;
-    height: 3rem;
+    width: 2.8rem;
+    height: 2.8rem;
     border-radius: 100%;
     display: flex;
     justify-content: center;
@@ -18,6 +18,6 @@
 }
 
 .Rrss_imgIcon {
-    width: 1.6rem;
-    height: 1.6rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
