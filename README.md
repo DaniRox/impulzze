@@ -1,40 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# **Impulzze-web**
 
-## Getting Started
+![Version](https://img.shields.io/badge/version-0.1-blue) ![License](https://img.shields.io/badge/license-MIT-green)
 
-First, run the development server:
+**Impulzze-web** es un sitio web desarrollado para representar a **Impulzze**, una empresa dedicada a conectar talento freelance con empresas y proyectos. Este sitio está diseñado para ofrecer una experiencia rápida, moderna y optimizada para motores de búsqueda (SEO).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌟 Características principales
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- **Optimización SEO**: Mejora la visibilidad en motores de búsqueda gracias a la migración a Next.js.
+- **Rendimiento optimizado**: Uso de tecnologías modernas como React.js y CSS modular para garantizar una experiencia rápida y eficiente.
+- **Integración con EmailJS y Firebase**: Gestión eficiente del contenido de formularios para facilitar la comunicación entre freelancers y empresas.
+- **Diseño modular**: Código limpio y mantenible gracias al uso de CSS modular.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## 📸 Capturas de pantalla
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![Captura 1](ruta/a/la/imagen1.png)
+*Descripción de la primera captura.*
 
-## Learn More
+![Captura 2](ruta/a/la/imagen2.png)
+*Descripción de la segunda captura.*
 
-To learn more about Next.js, take a look at the following resources:
+> **Nota**: Asegúrate de agregar las rutas correctas a tus imágenes o GIFs para mostrar cómo luce el sitio.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠 Requisitos previos
 
-## Deploy on Vercel
+Antes de ejecutar este proyecto, asegúrate de tener instalado lo siguiente:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Node.js v18+
+- npm v9+
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+---
+
+## 🚀 Instalación
+
+Sigue estos pasos para configurar y ejecutar el proyecto localmente:
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/impulzze-web.git
+
+
+## 👩‍💻 Diseñadora y Desarrolladora
+
+Este proyecto fue diseñado y desarrollado por DaniRox como parte de su trabajo para conectar talento freelance con empresas y proyectos a través de Impulzze .
+
+Si tienes preguntas, sugerencias o deseas colaborar, no dudes en contactarme:
+
+📧 Correo electrónico: danirox.disenioydesarrollo@gmail.com
+🌐 Portafolio: https://www.danirox.click/
+🔗 LinkedIn: https://www.linkedin.com/in/danirox/
+🐙 GitHub: @danirox

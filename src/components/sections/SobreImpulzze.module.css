@@ -1,0 +1,147 @@
+.SobreImpulzze {
+    background-color: var(--clear);
+    padding: 5rem 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    align-items: flex-end;
+}
+
+.SobreImpulzzeContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.SobreImpulzzeContent__title {
+    width: 100%;
+    color: var(--purple);
+    font-family: var(--font-secondary);
+    font-weight: var(--font-weight-black);
+    font-size: var(--font-secondary-large);
+    text-align: end;
+    max-width: 35rem;
+    align-self: flex-end;
+    line-height: 110%;
+}
+
+.SobreImpulzzeContent__text {
+    background-color: var(--salmon);
+    padding: 3rem 4.5rem 4.5rem 3rem;
+    border-radius: 80rem 0 150rem 80rem;
+    line-height: 110%;
+}
+
+.text {
+    color: var(--dark);
+    font-family: var(--font-primary);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-medium);
+    line-height: 105%;
+}
+
+.highlighted {
+    background-color: var(--esmerald);
+    font-style: italic;
+}
+
+.textItalic {
+    font-style: italic;
+    font-family: var(--font-secondary);
+}
+
+.SobreImpulzzeContent__shapes {
+    display: flex;
+    flex-direction: row;
+}
+
+.logotipo {
+    width: 6rem;
+    height: 6rem;
+    background-color: var(--maiz);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+}
+
+.shapes {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/* Móviles estándar */
+@media (min-width: 481px) {
+    .SobreImpulzzeContent__title {
+        font-size: var(--font-secondary-Xlarge);
+    }
+}
+
+  /* Tabletas pequeñas */
+@media (min-width: 769px) {
+    .SobreImpulzze {
+        padding: 5rem 8%;
+    }
+
+    .SobreImpulzzeContent__text {
+        width: auto;
+    }
+
+    .SobreImpulzzeContent {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .SobreImpulzzeContent__shapes {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+
+    .logotipo {
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+
+}
+
+  /* Tabletas grandes / Dispositivos pequeños de escritorio */
+@media (min-width: 1025px) {
+    .SobreImpulzze {
+        padding: 5rem 10%;
+    }
+
+    .SobreImpulzzeContent {
+        justify-content: flex-end;
+    }
+
+}
+
+  /* Escritorio */
+@media (min-width: 1281px) {
+    .SobreImpulzze {
+        padding: 5rem 14%;
+    }
+}
+
+  /* Pantallas grandes de escritorio */
+@media (min-width: 1601px) {
+    .SobreImpulzze {
+        padding: 5rem 16%;
+    }
+}
+
+  /* Pantallas extra grandes */
+@media (min-width: 1921px) {
+    .SobreImpulzze {
+        padding: 5rem 18%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .SobreImpulzzeContent__title {
+        align-self: center;
+    }
+}
