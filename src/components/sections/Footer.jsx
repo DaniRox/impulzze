@@ -98,7 +98,7 @@ const Footer = () => {
                             Mail
                         </a>
                         <a
-                            href="https://"
+                            href="mailto:jose@impulzze.com"
                             target="_blank"
                             rel="noopener noreferrer"
                             className={styles.link}

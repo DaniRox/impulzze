@@ -24,13 +24,13 @@ const Navbar = () => {
                     text="Únete como Impulzzer"
                     backgroundColor="var(--clear)"
                     hoverColor="var(--salmon)"
-                    onClick={() => scrollToSection("ImpulzzeEmpresas")}
+                    onClick={() => scrollToSection("ImpulzzeFreelancers")}
                 />
                 <Button
                     text="Encuentra talento"
                     backgroundColor="var(--clear)"
                     hoverColor="var(--salmon)"
-                    onClick={() => scrollToSection("ImpulzzeFreelancers")}
+                    onClick={() => scrollToSection("ImpulzzeEmpresas")}
                 />
             </div>
 
