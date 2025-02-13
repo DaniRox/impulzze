@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from "./ImpulzzeFreelancers.module.css";
 import CardFreelancers from "../components/CardFreelancers";
 import ArrowLeft from "../components/ArrowLeft";

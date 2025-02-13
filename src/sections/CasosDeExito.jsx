@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from "./CasosDeExito.module.css";
 import CardComentario from "../components/CardComentario";
 import Foto1 from "../assets/images/client1.jpg";

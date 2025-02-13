@@ -1,4 +1,3 @@
-import React, { useEffect, useRef } from "react";
 import "./assets/styles/colors.css";
 import "./assets/styles/fonts.css";
 import Navbar from "./layout/Navbar";

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import styles from "@/components/sections/Header.module.css";
 import Logotipo1 from "../Logotipo1";
 import Button from "../Button";

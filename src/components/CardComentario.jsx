@@ -1,5 +1,4 @@
-import React from 'react';
-import Image from 'next/image';
+import Image from "next/image";
 import styles from "@/components/CardComentario.module.css";
 
 const CardComentario = ({ img, title, text }) => {

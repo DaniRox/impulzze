@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Logotipo2 = ({ color = "currentColor", width = "155", height = "39", className = "" }) => {
     return (
         <svg

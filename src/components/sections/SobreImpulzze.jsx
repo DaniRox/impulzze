@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "@/components/sections/SobreImpulzze.module.css";
 import Circle from "../Circle";
 import HalfCircle from "../HalfCircle";

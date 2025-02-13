@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Circle = ({ size = 169, color = '#000' }) => {
     return (
         <svg

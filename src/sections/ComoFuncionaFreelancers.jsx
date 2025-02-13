@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from "./ComoFuncionaFreelancers.module.css";
 import Button from "../components/Button";
 import ArrowLeft from "../components/ArrowLeft";

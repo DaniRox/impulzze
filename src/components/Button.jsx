@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "@/components/Button.module.css";
 
 const Button = ({ text = "Click me", backgroundColor = "#007BFF", hoverColor = "#0056b3", onClick = () => {} }) => {

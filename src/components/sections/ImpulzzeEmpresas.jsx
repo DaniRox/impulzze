@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from "@/components/sections/ImpulzzeEmpresas.module.css";
 import CardEmpresas from "../CardEmpresas";
 import { Talento, Agilidad, Recursos } from "../Icons";

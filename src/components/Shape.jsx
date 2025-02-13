@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Shape = ({
     width = 198,
     height = 100,

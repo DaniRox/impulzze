@@ -1,5 +1,3 @@
-import React from 'react';
-
 const HalfCircle = ({ width = 86, height = 170, color = '#000' }) => {
     return (
         <svg

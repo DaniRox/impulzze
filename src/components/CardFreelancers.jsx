@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from "@/components/CardFreelancers.module.css";
 
 const CardFreelancers = ({ Icon, title, text }) => {

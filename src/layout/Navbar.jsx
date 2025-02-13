@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import styles from "./Navbar.module.css";
 import Button from "../components/Button";
 import Logotipo1 from "../components/Logotipo1";

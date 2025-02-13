@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Footer.module.css";
 import Logotipo2 from "../components/Logotipo2";
 

@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "@/components/sections/BannerFooter.module.css";
 import Logotipo1 from "../Logotipo1";
 

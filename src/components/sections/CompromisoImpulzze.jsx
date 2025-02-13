@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from "@/components/sections/CompromisoImpulzze.module.css";
 import Shape from "../Shape";
 

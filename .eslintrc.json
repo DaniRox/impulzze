@@ -1,9 +1,5 @@
 {
-    "extends": [
-        "next/core-web-vitals",
-        "eslint:recommended",
-        "plugin:react/recommended"
-        ],
+    "extends": ["next", "next/core-web-vitals"],
         "rules": {
         "react/react-in-jsx-scope": "off", // No requiere importar React explícitamente
         "react/prop-types": "off"         // Desactiva validaciones de PropTypes

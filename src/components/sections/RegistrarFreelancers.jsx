@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { db } from '@/lib/firebase'; // Importa Firestore
 import { collection, addDoc } from 'firebase/firestore'; // Funciones para interactuar con Firestore

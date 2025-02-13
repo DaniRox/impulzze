@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "@/components/Rrss.module.css";
 
 const Rrss = () => {

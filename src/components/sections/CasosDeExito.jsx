@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import { useRef, useEffect } from 'react';
 import styles from "@/components/sections/CasosDeExito.module.css";
 import CardComentario from "../CardComentario";
 import ArrowLeft from "../ArrowLeft";
