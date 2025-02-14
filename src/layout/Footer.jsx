@@ -71,7 +71,32 @@ const Footer = () => {
                             Casos de Éxito
                         </a>
                     </div>
-
+                    <div className={styles.links__socialLinks}>
+                        <a
+                            href="https://www.linkedin.com/company/impulzze/about/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={styles.link}
+                        >
+                            LinkedIn
+                        </a>
+                        <a
+                            href="https://www.instagram.com/impulzze?igsh=MXBzajhhMmc0OGd3Ng%3D%3D&utm_source=qr"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={styles.link}
+                        >
+                            Instagram
+                        </a>
+                        <a
+                            href="mailto:jose@impulzze.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={styles.link}
+                        >
+                            Mail
+                        </a>
+                    </div>
                 </div>
             </div>
 
