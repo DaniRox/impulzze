@@ -28,3 +28,8 @@ Thumbs.db
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
+=======
+
+.next/
+>>>>>>> 5ff5b916ae7d7f91ad823e8b6c1bb84ff989fe40
