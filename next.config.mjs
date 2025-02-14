@@ -11,5 +11,4 @@ const nextConfig = {
     basePath: "/impulzze",
     assetPrefix: "/impulzze/"
 };
-
 export default nextConfig;

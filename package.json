@@ -4,18 +4,11 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "dev": "next dev",
-<<<<<<< HEAD
-        "start": "next start",
-        "lint": "next lint",
-        "build": "next build && next export",
-        "deploy": "gh-pages -d out"
-=======
-        "build": "next build",
-        "start": "next start",
-        "lint": "next lint",
-        "deploy": "next build && gh-pages -d out"
->>>>>>> 5ff5b916ae7d7f91ad823e8b6c1bb84ff989fe40
+    "dev": "next dev",
+    "start": "next start",
+    "lint": "next lint",
+    "build": "next build",
+    "deploy": "gh-pages -d out"
     },
     "dependencies": {
         "@emailjs/browser": "^4.4.1",
