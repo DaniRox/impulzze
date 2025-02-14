@@ -7,10 +7,8 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "output": "next export",
         "lint": "next lint",
-        "export": "next build && next export",
-        "deploy": "next build && next export && gh-pages -d out"
+        "deploy": "next build && gh-pages -d out"
     },
     "dependencies": {
         "@emailjs/browser": "^4.4.1",
