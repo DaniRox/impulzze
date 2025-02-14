@@ -8,7 +8,5 @@ const nextConfig = {
     images: {
         unoptimized: true,
     },
-    basePath: "/impulzze",
-    assetPrefix: "/impulzze/"
 };
 export default nextConfig;
