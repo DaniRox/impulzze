@@ -1,0 +1,145 @@
+.Header {
+    background-color: var(--clear);
+    background-image: url("/images/shapesGroup.svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 50rem;
+    color: var(--clear);
+    padding: 8rem 5%;
+}
+
+.HeaderContent {
+    padding-top: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.HeaderContent__text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.title {
+    color: var(--dark);
+    font-family: var(--font-secondary);
+    font-size: var(--font-secondary-large);
+    font-weight: var(--font-weight-black);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.HeaderContent__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+}
+
+.HeaderContent__Logotipo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logotipo {
+    background-color: var(--maiz);
+    width: 12rem;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    box-shadow: -2px 2px 10px 0px rgba(80,80,80,0.5);
+}
+
+.animatedText {
+    background-color: var(--esmerald);
+    height: 2.3rem;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+
+@media (min-width: 481px) {
+    .HeaderContent__buttons {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1.2rem;
+    }
+
+    .title {
+        font-size: var(--font-secondary-Xlarge);
+    }
+}
+
+@media (min-width: 769px) {
+    .Header {
+        background-position: right top;
+        padding: 10rem 8%;
+        background-size: 48rem;
+    }
+
+    .HeaderContent {
+        padding-top: 0%;
+    }
+
+    .HeaderContent__text {
+        min-width: 30rem;
+    }
+
+    .title {
+        font-size: var(--font-secondary-XXlarge);
+    }
+
+    .HeaderContent__buttons {
+        flex-direction: row;
+    }
+
+    .HeaderContent__Logotipo {
+        width: 100%;
+    }
+}
+
+  /* Tabletas grandes / Dispositivos pequeños de escritorio */
+@media (min-width: 1025px) {
+    .Header {
+        padding: 5rem 10%;
+        background-size: 130vh;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .HeaderContent {
+        width: 100%;
+        align-items: center;
+        flex-direction: row;
+    }
+}
+
+/* Escritorio */
+@media (min-width: 1281px) {
+    .Header {
+        padding: 5rem 14%;
+    }
+}
+
+/* Pantallas grandes de escritorio */
+@media (min-width: 1601px) {
+    .Header {
+        padding: 5rem 16%;
+    }
+}
+
+/* Pantallas extra grandes */
+@media (min-width: 1921px) {
+    .Header {
+        padding: 5rem 18%;
+        align-items: center;
+    }
+}

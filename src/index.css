@@ -1,0 +1,29 @@
+html {
+    font-size: 18px;
+}
+
+@media (min-width: 769px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1025px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1281px) {
+    html {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 1601px) {
+    html {
+        font-size: 21px;
+    }
+}
+
+

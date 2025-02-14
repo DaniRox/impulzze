@@ -1,0 +1,116 @@
+.BannerFooter {
+    background-color: var(--clear);
+    background-image: url("/images/shapesGroup2.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 50rem;
+    color: var(--clear);
+    padding: 5rem 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.BannerFooter__title {
+    width: 100%;
+    color: var(--dark);
+    font-family: var(--font-secondary);
+    font-weight: var(--font-weight-black);
+    font-size: var(--font-secondary-large);
+    text-align: start;
+    max-width: 35rem;
+    align-self: self-start;
+    line-height: 120%;
+}
+
+.BannerFooterContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.BannerFooterContent__text {
+    background-color: var(--clear);
+    padding: 3rem 3rem 5rem 4.5rem;
+    border-radius: 0 80rem 80rem 150rem;
+    box-shadow: -2px 2px 10px 0px rgba(80,80,80,0.5);
+}
+
+.BannerFooterContent__shapes {
+    min-width: 8.5rem;
+    width: 8.5rem;
+    height: 8.5rem;
+    background-color: var(--esmerald);
+    padding: 0.8rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -2px 2px 10px 0px rgba(80,80,80,0.5);
+}
+
+.text {
+    font-family: var(--font-secondary);
+    font-size: var(--font-secondary-medium);
+    font-weight: var(--font-weight-light);
+    color: var(--dark);
+    line-height: 120%;
+}
+
+
+/* Móviles estándar */
+@media (min-width: 481px) {
+    .BannerFooterContent {
+        align-items: flex-start;
+    }
+
+    .BannerFooter__title {
+        font-size: var(--font-secondary-Xlarge);
+    }
+}
+
+  /* Tabletas pequeñas */
+@media (min-width: 769px) {
+    .BannerFooter {
+        padding: 7rem 8%;
+        background-size: 48rem;
+        background-position: left top;
+    }
+
+    .BannerFooterContent {
+        flex-direction: row;
+    }
+}
+
+  /* Tabletas grandes / Dispositivos pequeños de escritorio */
+@media (min-width: 1024px) {
+    .BannerFooter {
+        padding: 7rem 10%;
+        background-size: 130vh;
+    }
+}
+
+/* Escritorio */
+@media (min-width: 1281px) {
+    .BannerFooter {
+        padding: 7rem 14%;
+    }
+}
+
+/* Pantallas grandes de escritorio */
+@media (min-width: 1601px) {
+    .BannerFooter {
+        padding: 7rem 16%;
+    }
+}
+
+/* Pantallas extra grandes */
+@media (min-width: 1921px) {
+    .BannerFooter {
+        padding: 7rem 18%;
+    }
+
+    .BannerFooter__title {
+        align-self: center;
+    }
+}

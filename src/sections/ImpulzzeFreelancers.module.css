@@ -1,0 +1,125 @@
+.ImpulzzeFreelancers {
+    background-color: var(--clear);
+    background-color: var(--clear);
+    background-image: url("../assets/images/shapesGroup4.svg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 24rem;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+.ImpulzzeFreelancers__title {
+    width: 100%;
+    color: var(--dark);
+    font-family: var(--font-secondary);
+    font-weight: var(--font-weight-black);
+    font-size: var(--font-secondary-large);
+    text-align: end;
+    max-width: 35rem;
+    padding: 0rem 5%;
+    align-self: flex-end;
+    line-height: 120%;
+}
+
+.arrowLeft, .arrowRight {
+    position: absolute;
+    margin-top: 20rem;
+}
+
+.arrowLeft {
+    right: 0;
+}
+
+.arrowRight {
+    left: 0;
+}
+
+.ImpulzzeFreelancersContent {
+    width: 100%;
+    padding: 2rem 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35%;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+
+.highlighted {
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+/* Móviles estándar */
+@media (min-width: 481px) {
+    .ImpulzzeFreelancersContent {
+        padding: 2rem 20%;
+        gap: 50%;
+    }
+
+    .ImpulzzeFreelancers__title {
+        font-size: var(--font-secondary-Xlarge);
+    }
+}
+
+  /* Tabletas pequeñas */
+@media (min-width: 769px) {
+    .ImpulzzeFreelancers {
+        padding: 5rem 8%;
+    }
+
+    .arrowLeft, .arrowRight {
+        display: none;
+    }
+
+    .ImpulzzeFreelancersContent {
+        padding: 2rem 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4rem;
+    }
+}
+
+  /* Tabletas grandes / Dispositivos pequeños de escritorio */
+@media (min-width: 1025px) {
+    .ImpulzzeFreelancers {
+        padding: 5rem 10%;
+    }
+
+    .ImpulzzeFreelancersContent {
+        gap: 5rem;
+    }
+}
+
+  /* Escritorio */
+@media (min-width: 1281px) {
+    .ImpulzzeFreelancers {
+        padding: 5rem 14%;
+    }
+}
+
+/* Pantallas grandes de escritorio */
+@media (min-width: 1601px) {
+    .ImpulzzeFreelancers {
+        padding: 5rem 16%;
+    }
+}
+
+/* Pantallas extra grandes */
+@media (min-width: 1921px) {
+    .ImpulzzeFreelancers {
+        padding: 5rem 18%;
+    }
+
+    .ImpulzzeFreelancers__title {
+        align-self: center;
+    }
+}

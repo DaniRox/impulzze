@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://use.typekit.net/ick0cbm.css");
+
+:root {
+    --font-primary: "Roboto Condensed", serif;
+    --font-secondary: venice-blvd, sans-serif;
+
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+    --font-weight-black: 900;
+    --font-weight-italic: italic;
+
+    --font-small: 1rem;
+    --font-medium: 1.1rem;
+    --font-large: 1.2rem;
+    --font-Xlarge: 1.8rem;
+    --font-XXlarge: 2.3rem;
+
+    --font-secondary-small: 0.9rem;
+    --font-secondary-medium: 1.1rem;
+    --font-secondary-large: 1.4rem;
+    --font-secondary-Xlarge: 1.9rem;
+    --font-secondary-XXlarge: 2.6rem;
+}
+
+:root {
+    --dark: #1C152F;
+    --clear: #EEF6EC;
+    --purple: #5739A8;
+    --salmon: #F2927D;
+    --esmerald: #1EDA98;
+    --maiz: #EBDD3F;
+}
