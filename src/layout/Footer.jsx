@@ -96,14 +96,6 @@ const Footer = () => {
                         >
                             Mail
                         </a>
-                        <a
-                            href=""
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className={styles.link}
-                        >
-                            WApp
-                        </a>
                     </div>
                 </div>
             </div>
