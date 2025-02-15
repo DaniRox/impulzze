@@ -44,6 +44,7 @@ const App = () => {
                 <BannerFooter/>
 
             </main>
+            <Footer />
         </div>
     );
 };
