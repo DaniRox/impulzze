@@ -73,7 +73,7 @@ const Footer = () => {
                     </div>
                     <div className={styles.links__socialLinks}>
                         <a
-                            href="https://linkedin.com"
+                            href="https://www.linkedin.com/company/impulzze/about/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className={styles.link}
@@ -81,7 +81,7 @@ const Footer = () => {
                             LinkedIn
                         </a>
                         <a
-                            href="https://"
+                            href="https://www.instagram.com/impulzze?igsh=MXBzajhhMmc0OGd3Ng%3D%3D&utm_source=qr"
                             target="_blank"
                             rel="noopener noreferrer"
                             className={styles.link}
@@ -89,20 +89,12 @@ const Footer = () => {
                             Instagram
                         </a>
                         <a
-                            href="https://"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className={styles.link}
-                        >
-                            Mail
-                        </a>
-                        <a
                             href="mailto:jose@impulzze.com"
                             target="_blank"
                             rel="noopener noreferrer"
                             className={styles.link}
                         >
-                            WhatsApp
+                            Mail
                         </a>
                     </div>
                 </div>
