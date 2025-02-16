@@ -102,10 +102,10 @@ const Footer = () => {
 
             <div className={styles.FooterContent__termsYmention}>
                 <p>
-                    <a href="">Términos y Condiciones</a>
+                    <a href="" target="_blank">Términos y Condiciones</a>
                 </p>
                 <p>
-                    <a href="">Diseño y Desarrollo por DaniRox</a>
+                    <a href="https://www.danirox.click/" target="_blank">Diseño y Desarrollo por DaniRox</a>
                 </p>
             </div>
         </footer>
